@@ -1,4 +1,6 @@
-
+a{
+	text-decoration: none;
+}
 /*VISION MISSION*/
 
 
@@ -120,7 +122,9 @@ text-align: center;
 .tomato_info{
 	width: 100%;
 	font-size: 17px;
-margin-bottom: 50px;
+	margin-bottom: 50px;}
+.body_tomato_all{
+background-color: #fcf0f0;	
 }
 .ti_content{
 	width: 1100px;
@@ -216,3 +220,103 @@ margin-bottom: 50px;
  background-repeat:no-repeat ;
 }
 
+
+/*TOMATO ONE MIDDLE*/
+.body_tomato_one{
+	background-color: #f7f7f7;
+}
+.middle_tomato_one_background{
+	width: 	1448px;
+	background-image: url(../img/Union2.png);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	height: 1333px;
+}
+.middle_tomato_one{
+	width: 1115px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+.to_red_text{
+	width:550px;
+	display: flex;
+}
+.to_red_text h3{
+	width: 450px;
+	font-size: 34px;
+	padding-left: 20px;
+	color: #CF2333;
+}
+.to_red_text img{
+	width: 80px;
+	height: 80px;
+	margin:  auto 0;
+}
+.to_return{
+
+	margin-bottom: 50px;
+}
+.to_return a{	
+	font-size: 15px;
+	color:  #57984C;
+	font-family: sans-serif,Heebo;
+}
+.to_parent{
+	width: 100%;
+	display: flex;
+	height: 1000px;
+}
+.to_child{
+	width: 50%;
+	height: 100%;
+}
+.to_child h1{
+	font-size: 200%;
+}
+#to_list hr{
+	width: 150px;
+	color: #57984C;
+	margin: 10px 0;
+}
+#to_list{
+	font-size: 20px;
+	color: #57984C;
+	margin-bottom: 10px;
+}
+#to_list p{
+	color:#324950;
+}
+#to_list h5{
+	font-size: 20px;
+	margin: 0;
+}
+.to_h1_green{
+	font-family: sans-serif, Roboto Slab;
+	color: #57984C;
+}
+.to_h1_black{
+	font-family: sans-serif, Roboto Slab;
+	color: #324950;
+	margin:10px 0;
+}
+li span{
+	color: #324950;
+}
+.to_button{
+border: solid 2px #57984C;
+border-radius: 30px;
+
+width: 230px;
+margin:30px 0 0 310px;
+	text-align: center;
+	display: flex;
+	 justify-content: center;
+  	align-items: center;
+}
+.to_button *{
+	margin: 10px;
+}
+.to_button span{
+	font-size: 17px;
+	color: #57984C;
+}
