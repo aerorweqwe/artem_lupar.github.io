@@ -320,3 +320,105 @@ margin:30px 0 0 310px;
 	font-size: 17px;
 	color: #57984C;
 }
+
+
+/* CONTACT US */
+
+.contact_us{
+	width: 100%;
+	background-color: #f7f7f7;
+
+}
+.cu_img img{
+	width: 100%;
+}
+.contact_us_content{
+	width: 1100px;
+	margin: 0 auto;
+}
+.cu_h1{
+	font-family: sans-serif, Roboto Slab;
+	color:#324950;
+}
+.cu_form{
+	width: 100%;
+	display: flex;
+	color: #324950;
+}
+.cu_one{
+	height: 100%;
+	width: 40%;
+	padding-right:100px ;
+}
+.cu_two{
+	height: 100%;
+	width: 60%;
+}
+.cu_address{
+	width: 100%;
+	background-color: #fff;
+	height: 250px;
+	margin-top: 50px;
+	display: flex;
+	padding: 20px;
+	justify-content: center;
+	text-align: center;
+}
+#cua_list{
+	width: 20%;
+}
+
+#cua_list h5{
+	color:#57984C;
+	font-size: 20px;
+	margin:20px 0 0 0; 
+}
+#cua_list p{
+	font-size:17px;
+}
+#cu_hr{
+	width: 200px;
+}
+.green{
+	color: #57984C;
+}
+#form_input{
+	width: 100%;
+	border-radius: 10px;
+	border:1px solid #DADADA;
+	height: 55px;
+	font-size: 24px;
+	font-family:sans-serif, Roboto Slab;
+	color: #324950;
+}
+.cuc_input textarea{
+	width: 100%;
+	border-radius: 10px;
+	border:1px solid #DADADA;
+	height: 350px;
+	font-size: 24px;
+}
+#CAPTCHA_input{
+	width: 225px;
+	height: 55px;
+	font-size: 24px;
+	border-radius: 10px;
+	border:1px solid #DADADA;
+}
+.cuc_input_button{
+	height: 100px;
+}
+.cuc_input_button img{
+	width: 100;
+	margin-right: 10px;
+}
+#input_button{
+	width: 230px;
+	height: 55px;
+	border-radius: 60px;
+	color: #fff;
+	font-size: 20px;
+	background-color: #57984C;
+	border:0 ;
+	margin-left: 10px;
+}
