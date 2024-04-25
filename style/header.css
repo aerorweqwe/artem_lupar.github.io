@@ -19,14 +19,12 @@ body{
 .header{
 	width:100%;
 	height: 850px;
-	background-image: url(../img/bg.jpg);
-	background-repeat: no-repeat;
+	background: url(../img/bg.jpg)  center center/cover no-repeat;
 	position: relative;
 }
 .header_content{
-	width: 70%;
+	width: 100%;
 	height: 100%;
-	margin: 0 15% 0 15%;
 }
 .header_content_tomato{	 
 	display: flex;
@@ -38,23 +36,29 @@ body{
 }
 .header_content_top{	 
 	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
-	width: 100%;
-	height: 15%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 	
+    width: 1115px;
+    height: 15%;
+   	margin:0 auto;
 }
 .logo{
-	width: 51%;
-	position: relative;
+	width: 30%;
 }
 .search{
-	left:200px;
-	position: relative;	
-	width: 25%;
+	width: 245px;
 	height: 50px;
+	margin-left: 320px;
+}
+.search_menu{
+	height: 100%;
+	width: 700px;
 }
 .p_search{
 	border-bottom: solid 1px #324950;
+	float: margin-right;
 }
 input[type=search]{
 	border: 0px;
@@ -70,11 +74,11 @@ input[type=search]:focus {
 	position: absolute;
 	float: right;
 }
-.burger_menu{
-	position: relative;
+.burger_menuX{
 	padding: 20px 0;
-	right: 50px;
-
+}
+.burger_menu{
+	display: none;
 }
 #menu_text{
 	color:  #324950;
@@ -84,7 +88,8 @@ input[type=search]:focus {
 }
 .header_content_bottom{
 text-align: center;
-margin-top: 20%;
+margin-top:300PX;
+
 }
 .a_button{
 	width: 160px;
@@ -98,7 +103,13 @@ color: #fff;
 }
 
 .header_contactus{
-	width:100%;
 	height: 120px;
 	background-color: #fff;
+}
+
+#burger, [for=burger]{
+	display: none;
+}
+label{
+	right: 100px;
 }
