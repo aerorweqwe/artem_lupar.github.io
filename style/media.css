@@ -33,6 +33,25 @@
 	.ma_h1{
 		font-size: 100%;
 	}
+
+
+	/*TOMATO ALL*/
+		.header_content_tomato{
+		width: 900px;
+	}
+	.tomato_info{
+		font-size: 15px;
+	}
+	.ti_content{
+		width: 900px;
+	}
+	.ti_blocks{
+		width: 900px;
+	}
+	.ti_block {
+    width: 260px;
+    height: 260px;
+    margin: 10px;
 }
 @media screen and (max-width: 1085px){
 	.search{
@@ -59,6 +78,36 @@
 	.fl_base{
 		padding: 20px 0 0 100px;
 	}
+
+		/*TOMATO ALL*/
+		.header_content_tomato{
+			width: 900px;
+			margin: 0	auto;
+		}
+		.header_content_tomato .search{
+			margin-left: 200px;
+		}
+	.tomato_info{
+		font-size: 13px;
+	}
+	.ti_content{
+		width: 700px;
+	}
+	.ti_blocks{
+		width: 650px;
+		margin: 0 auto;
+		justify-content: center;
+	}
+	.ti_block {
+    width: 260px;
+    height: 260px;
+    margin: 10px;
+}
+	.header_content_tomato .burger_menuX{
+		width: 420px;
+		padding: 20px 0 0 0 ;
+		font-size: 20px	;
+	}
 }
 @media screen and (max-width: 900px){
 	.fl_list{
@@ -75,6 +124,10 @@
 	}
 		.header_content_top{
 		width: 600px;
+	}
+	#menu_text{
+
+		color:#fff;
 	}
 		[for=burger]{
 			display: block;
@@ -97,7 +150,7 @@
 		}
 
 			.cell-img img{
-	
+		color: ;
 		width: 380px;
 		height: 380px;	
 	}
@@ -127,6 +180,17 @@
 
 				padding: 50px;
 			}
+
+
+			/*TOMATO ALL*/
+					.header_content_tomato{
+				width: 700px;
+	}
+
+.header_content_tomato label{
+	top: 60px;
+	right: 50px;
+}
 }
 @media screen and (max-width: 800px){
 		.row{
@@ -168,6 +232,54 @@
 					height: 100px;
 				}
 
+					/*TOMATO ALL*/
+		.header_content_tomato{
+			width: 500px;
+			margin: 0	auto;
+		}
+		.header_content_tomato .search{
+			margin-left:0;
+		}
+	.tomato_info{
+		font-size: 13px;
+	}
+	.ti_content{
+		width: 450px;
+	}
+	.ti_blocks{
+		width: 650px;
+		margin: 0 auto;
+		justify-content: center;
+	}
+	.ti_block {
+    width: 260px;
+    height: 260px;
+    margin: 10px;
+}
+	.header_content_tomato .burger_menuX{
+		width: 420px;
+		padding: 20px 0 0 0 ;
+		font-size: 20px	;
+	}
+	.ti_news{
+	display: inline-block;
+	width: auto;
+	background-color: #FFFAFA;
+	justify-content: center;
+	margin: 20px;
+	padding: 10px;
+}
+.ti_news div {
+    width: 100%;
+    margin: 40px 0;
+}
+.ti_blocks{
+	width: 100%;
+}
+
+	.ti_hybrids{
+		text-align: center;
+	}
 }
 @media screen and (max-width:600px){
 	.header_content_top{
@@ -177,7 +289,7 @@
 		width: 300px;
 	}
 	.search{
-		margin-left: 50px;
+		margin-left: 0;
 	}
 	.fl_list a{
 		font-size:6px ;
@@ -186,4 +298,33 @@
 	.fl_base{
 		padding: 20px 0 0 60px;
 	}
+	.fl_ico img{
+		width: 13px;
+		height: 13px;
+	}
+	/*TOMATOs*/
+	.ti_content{
+		width: 400px;
+	}
+	.header_content_tomato{width: 350px}
+}
+
+@media screen and (max-width: 450px) {
+	.search{
+		width: 90px;
+	}
+	.search_menu{
+		width: 150px;
+	}
+	.header_content_top{
+		width: 400px;
+	}
+	 .header_content_tomato .search{
+	width: 200px;
+	right: 50px;
+}
+.header_content_tomato .logo img{
+	width: 120px;
+	height: 70px;
+}
 }
