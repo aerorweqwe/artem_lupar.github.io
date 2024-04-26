@@ -74,6 +74,11 @@
     .middle_tomato_one_background{
     	width: 100%;
     }
+
+    /*CONTACT US */
+    .contact_us_content{
+    	width: 900px;
+    }
 }
 @media screen and (max-width: 1085px){
 	.search{
@@ -249,6 +254,45 @@
 .to_red_text{
 	width: 90%;
 }
+
+/*contact us*/
+.cu_h1 h1{
+	text-align: center;
+	font-size: 40px;
+}
+.cu_h1{
+	margin: 0 auto;
+	width: 300px;
+}
+.cu_h1 img{
+	display: none;
+}
+.cu_one{
+	padding-right:50px ;
+	padding-left: 20px;
+}
+.cuc_input{
+	width: 80%;
+}
+	.cuc_input textarea{
+		width: 80%;
+	}
+	.contact_us_content{
+		width: 750px;
+	}
+	.cua_list *{
+		margin: 0 auto;
+	}
+	#cu_hr{
+		width: 100px;
+	}
+	#cua_list  p{
+		font-size:15px ;
+		margin:5px  0;
+	}
+	#form_input{
+		font-size: 18px;
+	}
 }
 @media screen and (max-width: 800px){
 		.row{
@@ -357,6 +401,10 @@
 	.middle_tomato_one_background{
 		height: 1100px;
 	}
+	/*Contact us*/
+	.contact_us_content{
+		width: 550px;
+	}
 }
 @media screen and (max-width:600px){
 	.header_content_top{
@@ -417,6 +465,23 @@
 		height: 900px;
 		margin-bottom: 100px;
 	}
+
+
+
+
+		/*Contact us*/
+	.contact_us_content{
+		width: 400px;
+	}
+	#cua_list{
+		width: 40%;
+	}
+		#input_button{
+width: 140px;
+		}
+	#CAPTCHA_input{
+width: 140px;
+	} 
 }
 
 @media screen and (max-width: 450px) {
@@ -437,4 +502,11 @@
 	width: 120px;
 	height: 70px;
 }
+
+		/*Contact us*/
+	.contact_us_content{
+		width: 300px;
+	}
+
+
 }
