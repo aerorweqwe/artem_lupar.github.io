@@ -51,7 +51,29 @@
 	.ti_block {
     width: 260px;
     height: 260px;
-    margin: 10px;
+    margin: 10px;}
+
+
+    /*TONATO 1*/
+   .middle_tomato_one {
+   	width: 900px;
+    }
+    .big_tomato_img{
+    	height: 450px;
+    	width: 450px;
+    }
+    .to_button{
+    	margin: 30px 0 0 200px;
+    }
+    .to_child{
+    	font-size: 90%;
+    }
+    .to_red_text{
+    	width: 100%;
+    }
+    .middle_tomato_one_background{
+    	width: 100%;
+    }
 }
 @media screen and (max-width: 1085px){
 	.search{
@@ -108,6 +130,23 @@
 		padding: 20px 0 0 0 ;
 		font-size: 20px	;
 	}
+    /*TONATO 1*/
+    .middle_tomato_one{
+    	width: 800px;
+    }
+    .to_child *{
+    	font-size: 100%;
+    }
+    .big_tomato_img{
+    	width: 380px;
+    	height: 380px;
+    }
+    .to_button{
+    	margin: 20px 0 0 150px;
+    }
+    .to_red_text h3{
+    	font-size: 28px;
+    }
 }
 @media screen and (max-width: 900px){
 	.fl_list{
@@ -190,6 +229,25 @@
 .header_content_tomato label{
 	top: 60px;
 	right: 50px;
+}
+
+/*TOMATO 1*/
+.middle_tomato_one{
+	width: 680px;
+	font-size: 80%;
+}
+.big_tomato_img{
+	width: 320px;
+	height:320px;
+}
+.to_button{
+	margin:20px 0 0 80px	;
+}
+.to_red_text h3{ 
+	font-size: 25px;
+}
+.to_red_text{
+	width: 90%;
 }
 }
 @media screen and (max-width: 800px){
@@ -280,6 +338,25 @@
 	.ti_hybrids{
 		text-align: center;
 	}
+
+	/*TOMATO 1*/
+	.middle_tomato_one{
+		width: 600px;
+		font-size: 80%;
+	}
+	.middle_tomato_one *{
+		font-size: 90%;
+	}
+	.big_tomato_img{
+		width: 300px;
+		height: 300px;
+	}
+	.to_button{
+		margin: 20px 0 0 50px;
+	}
+	.middle_tomato_one_background{
+		height: 1100px;
+	}
 }
 @media screen and (max-width:600px){
 	.header_content_top{
@@ -307,6 +384,39 @@
 		width: 400px;
 	}
 	.header_content_tomato{width: 350px}
+
+	/*TOMATO 1*/
+	.middle_tomato_one{
+		width: 400px;
+		height: 900px;
+	}
+	.to_red_text img{
+		width: 50px;
+		height: 50px;
+	}
+	.to_red_text h3{
+		font-size: 15px;
+	}
+	.big_tomato_img{
+		width: 200px;
+		height: 200px;
+	}
+	.to_button{
+		width: 150px;
+	}
+	.to_child *{
+		font-size: 12px;
+	}
+	.header_content_tomato{
+		width: 100%;
+	}
+	.mto{
+		height: 900px;
+	}
+	.middle_tomato_one_background{
+		height: 900px;
+		margin-bottom: 100px;
+	}
 }
 
 @media screen and (max-width: 450px) {
