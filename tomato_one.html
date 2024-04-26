@@ -3,10 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Tomato one</title>
+	<title>Document</title>
 	<link rel="stylesheet" href="style/header.css">
 	<link rel="stylesheet" href="style/middle.css">
 	<link rel="stylesheet" href="style/footer.css">
+	<link rel="stylesheet" href="style/media.css">
 </head>
 <body class="body_tomato_one">
 	<div class="header_tomato shadow">
@@ -16,10 +17,23 @@
 			</div>
 			<div class="search">
 				<p class="p_search">
-				<input type="text" placeholder="Search"> <a href="index.html"><img src="img/ico_search.png" class="Search_pic"></a>
+				<input type="search" placeholder="Search"> <a href="index.html"><img src="img/ico_search.png" class="Search_pic"></a>
 				</p>
 			</div>
+
+			<input type="checkbox" id="burger">
+			<label for="burger"></label>
 			<div class="burger_menu">
+				<a id="menu_text" href="index.html">Home</a>
+				<a id="menu_text" href="#">Company </a>
+                <a id="menu_text" href="#">Profile</a>
+				<a id="menu_text" href="tomato_all.html">Products</a>
+				<a id="menu_text" href="#">Services</a>
+				<a id="menu_text" href="#">R & D</a>
+				<a id="menu_text" href="contact_us.html">Contact</a>
+			</div>
+			
+			<div class="burger_menuX">
 				<a id="menu_text" href="index.html">Home</a>
 				<a id="menu_text" href="#">Company Profile</a>
 				<a id="menu_text" href="tomato_all.html">Products</a>
@@ -31,7 +45,7 @@
 	</div>
 	<div class="middle_tomato_one_background">
 		<div class="middle_tomato_one">
-		<div>
+		<div class="mto">
 			<div class="to_return">
 				<a href="tomato_all.html">⟵ Return to all tomatoes</a>
 			</div>
@@ -73,7 +87,7 @@
 					</div>
 				</div>
 				<div class="to_child">
-					<img src="img/tag809big.jpg" alt="tomato">
+					<img src="img/tag809big.jpg" alt="tomato" class="big_tomato_img">
 						<div class="to_button"><img src="img/pdf.png" alt=""><span class="bold">Download PDF</span></div>
 					<div id="to_list">
 						<h5>Cycle</h5>
